@@ -1,0 +1,16 @@
+C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Models\bin\Debug\NotePro.Models.dll
+C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Models\bin\Debug\NotePro.Models.pdb
+C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Models\obj\Debug\NotePro.Models.csprojAssemblyReference.cache
+C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Models\obj\Debug\NotePro.Models.csproj.CoreCompileInputs.cache
+C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Models\obj\Debug\NotePro.Models.dll
+C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Models\obj\Debug\NotePro.Models.pdb
+C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Models\bin\Debug\NotePro.Models.dll.config
+C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Models\bin\Debug\EntityFramework.dll
+C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Models\bin\Debug\EntityFramework.xml
+C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Models\obj\Debug\NotePro.Models.csproj.CopyComplete
