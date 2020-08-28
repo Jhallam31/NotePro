@@ -14,3 +14,6 @@ C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Data\bin\Debug\
 C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Data\obj\Debug\NotePro.Data.csproj.CopyComplete
 C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Data\obj\Debug\NotePro.Data.dll
 C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Data\obj\Debug\NotePro.Data.pdb
+C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Data\obj\Debug\NotePro.Data.Migrations.InitialCreate.resources
+C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Data\obj\Debug\NotePro.Data.csproj.GenerateResource.cache
+C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Data\obj\Debug\NotePro.Data.Migrations.firstCodeMigrate.resources
