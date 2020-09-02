@@ -14,7 +14,7 @@ namespace NotePro.Models.Note
         [MaxLength(100, ErrorMessage = "There are too many characters in this field.")]
         public string Title { get; set; }
         
-        [MaxLength(8000)]
+            [MaxLength(8000)]
         public string Content { get; set; }
     }
 }

@@ -54,6 +54,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Category.cs" />
     <Compile Include="IdentityModels.cs" />
     <Compile Include="Migrations\202008280138452_InitialCreate.cs" />
     <Compile Include="Migrations\202008280138452_InitialCreate.Designer.cs">
@@ -62,6 +63,10 @@
     <Compile Include="Migrations\202008280143252_firstCodeMigrate.cs" />
     <Compile Include="Migrations\202008280143252_firstCodeMigrate.Designer.cs">
       <DependentUpon>202008280143252_firstCodeMigrate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202009011954498_CorrectedNoteCreateService.cs" />
+    <Compile Include="Migrations\202009011954498_CorrectedNoteCreateService.Designer.cs">
+      <DependentUpon>202009011954498_CorrectedNoteCreateService.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Note.cs" />
@@ -77,6 +82,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202008280143252_firstCodeMigrate.resx">
       <DependentUpon>202008280143252_firstCodeMigrate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009011954498_CorrectedNoteCreateService.resx">
+      <DependentUpon>202009011954498_CorrectedNoteCreateService.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
