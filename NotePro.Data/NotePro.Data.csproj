@@ -68,6 +68,26 @@
     <Compile Include="Migrations\202009011954498_CorrectedNoteCreateService.Designer.cs">
       <DependentUpon>202009011954498_CorrectedNoteCreateService.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202009021803059_FinishedCategoryControllerandViews.cs" />
+    <Compile Include="Migrations\202009021803059_FinishedCategoryControllerandViews.Designer.cs">
+      <DependentUpon>202009021803059_FinishedCategoryControllerandViews.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202009021827582_NoteServiceFKUpdate.cs" />
+    <Compile Include="Migrations\202009021827582_NoteServiceFKUpdate.Designer.cs">
+      <DependentUpon>202009021827582_NoteServiceFKUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202009021851493_routedCategory.cs" />
+    <Compile Include="Migrations\202009021851493_routedCategory.Designer.cs">
+      <DependentUpon>202009021851493_routedCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202009021857007_newMigrate.cs" />
+    <Compile Include="Migrations\202009021857007_newMigrate.Designer.cs">
+      <DependentUpon>202009021857007_newMigrate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202009021901138_foreignKeyIssues.cs" />
+    <Compile Include="Migrations\202009021901138_foreignKeyIssues.Designer.cs">
+      <DependentUpon>202009021901138_foreignKeyIssues.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Note.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -85,6 +105,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202009011954498_CorrectedNoteCreateService.resx">
       <DependentUpon>202009011954498_CorrectedNoteCreateService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009021803059_FinishedCategoryControllerandViews.resx">
+      <DependentUpon>202009021803059_FinishedCategoryControllerandViews.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009021827582_NoteServiceFKUpdate.resx">
+      <DependentUpon>202009021827582_NoteServiceFKUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009021851493_routedCategory.resx">
+      <DependentUpon>202009021851493_routedCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009021857007_newMigrate.resx">
+      <DependentUpon>202009021857007_newMigrate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009021901138_foreignKeyIssues.resx">
+      <DependentUpon>202009021901138_foreignKeyIssues.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

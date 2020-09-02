@@ -14,3 +14,6 @@ C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Models\bin\Debu
 C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Models\obj\Debug\NotePro.Models.csproj.CopyComplete
+C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Models\bin\Debug\NotePro.Data.dll
+C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Models\bin\Debug\NotePro.Data.pdb
+C:\Users\jenna\OneDrive\Documents\CodingPractice\NotePro\NotePro.Models\bin\Debug\NotePro.Data.dll.config

@@ -18,5 +18,8 @@ namespace NotePro.Models.Note
         
         [Display(Name = "Modified")]
         public DateTimeOffset? ModifiedUtc { get; set; }
+        
+        [Display(Name ="Category")]
+        public string CategoryName { get; set; }
     }
 }

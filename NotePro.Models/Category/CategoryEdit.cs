@@ -8,6 +8,7 @@ namespace NotePro.Models.Category
 {
     public class CategoryEdit
     {
+        public string CategoryId { get; set; }
         public string Name { get; set; }
     }
 }

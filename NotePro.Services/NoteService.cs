@@ -25,7 +25,9 @@ namespace NotePro.Services
                     OwnerId = _userId,
                     Title = model.Title,
                     Content = model.Content,
-                    CreatedUtc = DateTimeOffset.Now
+                    CreatedUtc = DateTimeOffset.Now,
+                    CategoryId = model.CategoryId
+
                 };
 
             using (var ctx = new ApplicationDbContext())
@@ -51,7 +53,8 @@ namespace NotePro.Services
                             NoteId = e.NoteId,
                             Title = e.Title,
                             CreatedUtc = e.CreatedUtc,
-                            ModifiedUtc = e.ModifiedUtc
+                            ModifiedUtc = e.ModifiedUtc,
+                            CategoryName = e.Category.Name
                         }
                         );
                 return query.ToArray();
@@ -73,7 +76,9 @@ namespace NotePro.Services
                         Content = entity.Content,
                         Title = entity.Title,
                         CreatedUtc = entity.CreatedUtc,
-                        ModifiedUtc = entity.ModifiedUtc
+                        ModifiedUtc = entity.ModifiedUtc,
+                        CategoryName = entity.Category.Name
+                        
 
                     };
 
@@ -92,6 +97,7 @@ namespace NotePro.Services
                 entity.Title = model.Title;
                 entity.Content = model.Content;
                 entity.ModifiedUtc = DateTimeOffset.UtcNow;
+                entity.Category.CategoryId = model.CategoryId;
 
                 return ctx.SaveChanges() == 1;
             }

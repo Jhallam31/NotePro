@@ -84,14 +84,14 @@ namespace NotePro.Services
             }
         }
 
-        public bool DeleteCategory(int Id)
+        public bool DeleteCategory(string id)
         {
             using (var ctx = new ApplicationDbContext())
             {
                 var entity =
                     ctx
                     .Categories
-                    .Single(e => e.CategoryId == e.CategoryId);
+                    .Single(e => e.CategoryId == id);
 
                 ctx.Categories.Remove(entity);
                 return ctx.SaveChanges() == 1;

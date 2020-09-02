@@ -21,12 +21,12 @@ namespace NotePro.Data
         public string Content { get; set; }
         [Required]
         public DateTimeOffset CreatedUtc { get; set; }
+        public DateTimeOffset? ModifiedUtc { get; set; }
 
-        [Required]
+        
         [ForeignKey("Category")]
         public string CategoryId { get; set; }
         public virtual Category Category { get; set; }
 
-        public DateTimeOffset? ModifiedUtc { get; set; }
     }
 }

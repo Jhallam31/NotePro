@@ -16,5 +16,7 @@ namespace NotePro.Models.Note
         
             [MaxLength(8000)]
         public string Content { get; set; }
+
+        public string CategoryId { get; set; } 
     }
 }
